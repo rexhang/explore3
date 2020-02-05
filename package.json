@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "better-scroll": "^1.2.3",
     "jquery": "^3.2.1",
     "muse-ui": "^2.1.0",
