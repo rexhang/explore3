@@ -1,0 +1,42 @@
+/* 字体设置函数 */
+@mixin fonts ($issize, $iscolor) {
+    font-size: $issize;
+    color: $iscolor;
+}
+
+body{
+    background-color: rgb(37,33,57);
+    #app {
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      color: #2c3e50;
+    }
+}
+
+.mu-dialog{
+  width: 300px;
+}
+#addproject .w-e-text p, .w-e-text h1, .w-e-text h2, .w-e-text h3, .w-e-text h4, .w-e-text h5, .w-e-text table, .w-e-text pre{
+  text-align: left;
+  color: #fff;
+  text-indent: 14px;
+  font-size: 16px;
+}
+#addproject .mu-checkbox-label{
+  color: #fff;
+} 
+
+#addproject .mu-checkbox-icon-uncheck{
+  color: #fff;
+}
+#addproject .mu-checkbox-icon-checked{
+  color: #ed2d2f;
+}
+.mu-text-field-content .mu-text-field-input{
+  color: #fff;
+}
+.mu-text-field-content .mu-text-field-hint{
+  color: #555;
+}

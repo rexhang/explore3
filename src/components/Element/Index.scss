@@ -1,0 +1,20 @@
+/*
+* @Author: guhang
+* @Date:   2018-01-03 13:59:17
+* @Last Modified by:   guhang
+* @Last Modified time: 2018-01-03 15:35:49
+*/
+
+.index{
+	.lists{
+		li{
+			border-top: 1px solid red;
+			&:last-child{
+				border-bottom: 1px solid red;
+			}
+			.pic{
+				border-radius: 50%;
+			}
+		}
+	}
+}

@@ -1,0 +1,321 @@
+/*
+* @Author: guhang
+* @Date:   2018-01-03 13:59:17
+* @Last Modified by:   guhang
+* @Last Modified time: 2018-03-09 13:51:56
+*/
+
+.addproject{
+	.progress{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 999999;
+	}
+	.wraps{
+		width: 1300px;
+		margin: 0 auto;
+		.tits{
+			margin: 50px auto;
+			width: 90%;
+			.backicon{
+				width: 30px;
+				height: 30px;
+				display: block;
+			}
+			span{
+				font-size: 18px;
+				color: #fefefe;
+				margin-left: 20px;
+				line-height: 30px;
+			}
+		}
+		.shibiewu{
+			padding-top: 22px;
+			height: 260px;
+			border-radius: 8px;
+			background-color: #15132f;
+			position: relative;
+			.tits2{
+				margin: 0 22px;
+				.scan{
+					width: 26px;
+					height: 26px;
+				}
+				span{
+					font-size: 18px;
+					color: #fff;
+					margin-left: 16px;
+				}
+			}
+			.upload-box{
+				margin: 22px 0 0 22px;
+				position: relative;
+				#xuanzebtn{
+					cursor: pointer;
+				}
+				.shuom{
+					font-size: 12px;color: #999;margin-left: 12px;
+					text-align: left;
+				}
+				.uploadbtn{
+					position: absolute;
+					left: 162px;
+					bottom: 0;
+					cursor: pointer;
+				}
+			}
+		}
+		.dili{
+			@extend .shibiewu;
+			position: relative;
+			.put{
+				position: absolute;
+				top: 54px;
+				left: 506px;
+				span{
+					color: #fff;
+					margin-right: 12px;
+				}
+				.dili-name{
+					border-radius: 6px;
+					width: 500px;
+					height: 50px;
+					line-height: 50px;
+					color: #666;
+					text-indent: 14px;
+				}
+			}
+			.lnglat{
+				@extend .put;
+				bottom: 54px;
+				top: auto;
+				.lookfor{
+					margin: 0 8px;
+				}
+			}
+		}
+		.result{
+			padding-top: 22px;
+			padding-bottom: 22px;
+			margin-top: 22px;
+			height: auto;
+			border-radius: 8px;
+			background-color: #15132f;
+			position: relative;
+			.tits2{
+				margin: 0 22px;
+				.scan{
+					width: 26px;
+					height: 26px;
+				}
+				span{
+					font-size: 18px;
+					color: #fff;
+					margin-left: 16px;
+				}
+			}
+			.sel{
+				margin: 44px 0 44px 44px;
+				.list-ctrl{
+					li{
+						cursor: pointer;
+						float: left;
+						height: 14px;
+						line-height: 14px;
+						margin-right: 44px;
+						display: flex;
+						.selicon{
+							vertical-align: middle;
+							width: 14px;
+							height: 14px;
+						}
+						.name{
+							font-size: 14px;
+							color: #fefefe;
+							margin-left: 10px;
+						}
+					}
+				}
+			}
+			.contents{
+				margin: 0 44px 44px 44px;
+				margin-bottom: 44px;
+				.doc{
+					font-size: 12px;
+					color: #fefefe;
+					text-align: left;
+				}
+			}
+			.tuwen{
+				.editor-box{
+					#e-content{
+						border-radius: 6px;
+					}
+					.w-e-toolbar{
+						background-color: #3d365d;
+						border-radius: 6px;
+					}
+					width: 1000px;
+					border-radius: 10px;
+					p{
+						text-align: left;
+					}
+					.toolbar{
+					  background-color: #15132f;
+					  height: 50px;
+					  line-height: 50px;
+					  .w-e-menu{
+					    padding: 0 14px;
+					    z-index: 99;
+					  }
+					  margin-bottom: 8px;
+					}
+					.pleaseInput{
+					  font-size: 16px;
+					  color: #878787;
+					  text-indent: 22px;
+					  margin-bottom: 8px;
+					}
+					.text{
+					  background-color: rgba(0,0,0,0.2);
+					  height: 360px;
+					  .w-e-text{
+					    color: #fff;
+					    padding-left: 22px;
+					    padding-top: 16px;
+					    font-size: 16px;
+					    overflow: auto;
+					    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+					    &::-webkit-scrollbar{
+					        width: 8px;
+					    }
+					    /*定义滚动条轨道 内阴影+圆角*/
+					    &::-webkit-scrollbar-track{
+					        background-color: #d5d5d5;
+					        border-radius: 10px;
+					    }
+					    /*定义滑块 内阴影+圆角*/
+					    &::-webkit-scrollbar-thumb{
+					        background-color: #666;
+					        border-radius: 10px;
+					    }
+					  }
+					}
+					.w-e-text-container{
+					  z-index: auto;
+					}
+				}
+			}
+			.d3{
+				.os-box{
+					&.android{
+						margin-left: 44px;
+					}
+					.zipname{
+						color: #fefefe;
+						font-size: 18px;
+						text-align: left;
+						margin: 12px auto;
+					}
+					.up-group{
+						img{
+							cursor: pointer;
+						}
+						.doc{
+							font-size: 16px;
+							margin-top: 12px;
+						}
+						.upos{
+							margin: 12px 0;
+						}
+					}
+				}
+			}
+			.shipin{
+				#up-group-video{
+					img{
+						cursor: pointer;
+					}
+					.doc{
+						font-size: 16px;
+						margin-top: 12px;
+					}
+					.upos{
+							margin: 12px 0;
+					}
+					#sel-video{
+						width: 120px;
+						height: 40px;
+						line-height: 40px;
+						margin-top: 22px;
+						color: #fff;
+						border: 1px solid #fff;
+						text-align: center;
+						border-radius: 4px;
+						cursor: pointer;
+					}
+				}
+			}
+			.check-area{
+				margin: 0 44px 44px 44px;
+				display: flex;
+				align-items: center;
+				.checkname{
+					color: #fff;
+					float: left;
+				}
+				.vals{
+					width: 1000px;
+					margin-left: 18px;
+					text-indent: 24px;
+					font-size: 16px;
+    				padding: 10px 0;
+    				color: #333;
+    				border-radius: 6px;
+    				 	&::-webkit-input-placeholder
+    					{
+    					    text-indent: 24px;
+    					    color: #bbb;
+    					    font-size: 16px;
+    					    line-height: 1;
+    					    padding: 4px 0;
+    					}
+				}
+			}
+		}
+		.btngroup{
+			margin: 50px auto;
+			width: 380px;
+			.btn1{
+				width: 180px;
+				height: 60px;
+				box-sizing: border-box;
+				background-color: #ed2d2e;
+				box-shadow: 0px 2px 15px 0px 
+					rgba(50, 44, 77, 0.1);
+				border-radius: 8px;
+				font-size: 20px;
+				text-align: center;
+				line-height: 60px;
+				color: #fff;
+				cursor: pointer;
+			}
+			.btn2{
+				width: 180px;
+				height: 60px;
+				margin-left: 20px;
+				box-sizing: border-box;
+				background-color: #e8e6f3;
+				box-shadow: 0px 2px 15px 0px 
+					rgba(50, 44, 77, 0.1);
+				border-radius: 8px;
+				font-size: 20px;
+				text-align: center;
+				line-height: 60px;
+				cursor: pointer;
+			}
+		}
+	}
+}

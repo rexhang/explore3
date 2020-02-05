@@ -1,0 +1,114 @@
+/*
+* @Author: guhang
+* @Date:   2018-01-03 13:59:17
+ * @Last Modified by: rexhang
+ * @Last Modified time: 2018-03-09 16:28:03
+*/
+
+.banner{
+	.mod-title{
+		color: #fff;
+		margin-top: 50px;
+	}
+	.tablebox{
+		border: 1px solid #ec9340;
+		border-radius: 6px;
+		width: 900px;
+		margin: 20px auto 0;
+	}
+	.bannerTable{
+		color: #fff;
+		thead, tbody{
+			text-align: center;
+		}
+		th,td{
+			padding: 12px;
+		}
+		td.banner-td{
+			position: relative;
+			padding: 0;
+			width: 150px;
+			height: 70px;
+			
+			.uploads{
+				width: 150px;
+				height: 70px;
+				overflow: hidden;
+				position: relative;
+				input[type='file']{
+					width: 50px;
+					height: 32px;
+					position: absolute;
+					top: 10px;
+					left: calc(34%);
+					opacity: 0;
+					z-index: 3;
+					cursor: pointer;
+				}
+				.change-btn{
+					position: absolute;
+					top: 10px;
+					left: calc(34%);
+					width: 50px;
+					height: 32px;
+					line-height: 32px;
+					text-align: center;
+					color: #fff;
+					border-radius: 6px;
+					background-color: #3639c7;
+					font-size: 14px;
+					cursor: pointer;
+					z-index: 2;
+					&:hover{
+						opacity: .9;
+					}
+				}
+			}
+		}
+		img.bannerimg{
+			width: 150px;
+			height: 70px;
+		}
+		.linkurl{
+			background-color: #f5f5f5;
+			height: 34px;
+			line-height: 34px;
+			width: 500px;
+			color: #333;
+			padding: 0 12px;
+			border-radius: 6px;
+		}
+		.save{
+			width: 60px;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			color: #fff;
+			border-radius: 6px;
+			background-color: #cc2a2e;
+			font-size: 14px;
+			cursor: pointer;
+			&:hover{
+				opacity: .9;
+			}
+			&:active{
+				opacity: 1;
+			}
+		}
+	}
+	.base-btn{
+		width: 120px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: #fff;
+		border-radius: 6px;
+		background-color: #cc2a2e;
+		font-size: 18px;
+		cursor: pointer;
+		margin: 20px auto 0;
+		&:hover{
+			opacity: .9;
+		}
+	}
+}

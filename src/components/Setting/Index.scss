@@ -1,0 +1,43 @@
+/*
+* @Author: guhang
+* @Date:   2018-01-03 13:59:17
+* @Last Modified by:   guhang
+* @Last Modified time: 2018-03-01 10:31:59
+*/
+
+#setting{
+	color: #fff;
+}
+#setting .whitecolor{
+	color: #fff !important;
+};
+
+.recongnite-style{
+	text-align: left;
+	padding-left: 20%;
+	margin-top:10px;
+	color: red;
+	
+}
+.recong-title{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 900;
+}
+.userInfo-details{
+	p{
+		color: #fff;
+		margin-top: 10px;
+		input{
+			color:#fff;
+		}
+	}
+	.change-pwd{
+		cursor: pointer;
+	}
+
+}
+.checkbox-style{
+	margin-left: 0px;
+	text-align: left;
+}

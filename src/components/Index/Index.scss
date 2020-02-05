@@ -1,0 +1,78 @@
+/*
+* @Author: guhang
+* @Date:   2018-01-03 13:59:17
+* @Last Modified by:   guhang
+* @Last Modified time: 2018-03-09 11:16:09
+*/
+
+.index{
+	.board{
+		padding-left: 250px;
+		padding-right: 250px;
+		margin-top: 100px;
+		.img{
+			background-color: rgb(21,19,47);
+			margin: 10px;
+			width: 250px;
+			height: 300px;
+			float: left;
+			color: white;
+			cursor:pointer;
+			.pic{
+				width: 200px;
+				height: 200px;
+				margin-top: 30px;
+			}
+		}
+		.card{
+			background-color: rgb(21,19,47);
+			margin: 10px;
+			width: 250px;
+			height: 300px;
+			float: left;
+			color: white;
+			.pic{
+				width: 200px;
+				height: 200px;
+				margin-top: 30px;
+			}
+			.name{
+				margin-top: 10px;
+			}
+			.panel{
+				float: left;
+				margin-top: 10px;
+				#img1{
+					
+					margin-left: 25px;
+					height: 15px;
+					width: 20px;
+				}
+				span{
+					margin-left: 10px;
+				}
+				#img2{
+					height: 15px;
+					width: 15px;
+					margin-left: 90px;
+					cursor: pointer;
+				}
+				#img3{			
+					margin-left: 10px;
+					height: 15px;
+					width: 15px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.loadMore{
+		color: white;
+		// position: fixed;
+		// left: 50%;
+		// bottom: 1%;
+		cursor:pointer;
+		margin-top: 30px;
+	}
+	
+}

@@ -1,0 +1,391 @@
+.project{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    #prompt{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .display{
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        background-color: rgb(21,19,47);
+        border-radius: 15px;
+        .coverImage{
+            display: inline-block;
+            #label1{
+                float: left;
+            }
+            .fileBox{
+                float: left;
+                background-color: rgb(16,15,37);
+                height: 71px;
+                width: 150px;
+                margin-left: 30px;
+                margin-right: 30px;
+                position: relative;
+                #addImage{
+                    height: 100%;
+                    width: 100%;
+                    //background-image: url('https://rexhang.com/img/rexhang.png');
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: 100% 100%;
+                    cursor:pointer;
+                }
+                #file{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 9;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                  }
+            }  
+            .uploadPanel{
+                float:left;
+                #label2{
+                    font-size: 16px;
+                    color: #fefefe;
+                }
+                #img_upload{
+                    margin-top: 20px;
+                    cursor:pointer;
+                }
+            }          
+            
+        }
+        .name{            
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            #label{
+                float: left;
+            }
+            input{
+                font-size: 14px;
+                margin-left: 30px;
+                background-color: rgb(16,15,37);
+                color: #fefefe;
+                text-indent: 14px;
+                height: 60px;
+                width: 90%;
+            }
+        }
+        .owner_headurl{
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            display: inline-block;
+            #label{
+                float: left;
+            }
+            .fileBox{
+                float: left;
+                height: 100px;
+                width: 100px;
+                margin-left: 30px;
+                margin-right: 30px;
+                position: relative;
+                #addImage1{
+                    height: 100%;
+                    width: 100%;
+                    //background-image: url('https://rexhang.com/img/rexhang.png');
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: 100% 100%;
+                    cursor:pointer;
+                }
+                #file{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 9;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                  }
+            }  
+            .uploadPanel{
+                float:left;
+                #label2{
+                    font-size: 16px;
+                    color: #fefefe;
+                }
+                #img_upload{
+                    margin-top: 20px;
+                    cursor:pointer;
+                }
+            }          
+        }
+        .owner_name{
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            #label{
+                float: left;
+            }
+            input{
+                font-size: 14px;
+                margin-left: 30px;
+                background-color: rgb(16,15,37);
+                color: #fefefe;
+                text-indent: 14px;
+                height: 60px;
+                width: 90%;
+            }
+        }
+        .des{
+            margin-top: 30px;
+            display: flex;
+            align-items:Center;
+            #label{
+                float: left;
+            }
+            input{
+                font-size: 14px;
+                margin-left: 30px;
+                background-color: rgb(16,15,37);
+                color: #fefefe;
+                text-indent: 14px;
+                height: 60px;
+                width: 90%;
+            }
+            
+        }
+        .link{
+            margin-left: 110px;
+            p{
+                #purchaseLink{
+                    margin-right: 10px;
+                }
+                font-size: 16px;
+                color: #fefefe;
+            }
+        }
+        .linkDes{
+            color: rgb(83,86,94);
+            margin-left: 110px;
+            #input1{
+                font-size: 14px;
+                background-color: rgb(16,15,37);
+                height: 60px;
+                width: 70%;
+                color: #fefefe;
+                text-indent: 14px;
+            }
+            #input2{
+                font-size: 14px;
+                background-color: rgb(16,15,37);
+                height: 60px;
+                width: 25%;
+                color: #fefefe;
+                text-indent: 14px;
+            }
+        }
+        .video{
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            #label{
+                float: left;
+            }
+            .check{               
+                vertical-align: middle;
+                margin-left: 30px;
+                #purchaseLink{
+                    margin-right: 10px;
+                }
+                font-size: 16px;
+                color: #fefefe;                
+            }                 
+        }
+        .banner{
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            #label{
+                float: left;
+            }
+            .check{               
+                
+                margin-left: 40px;
+                #purchaseLink{
+                    margin-right: 10px;
+                }
+                font-size: 16px;
+                color: #fefefe;                
+            }                 
+        }
+        .video_upload{
+            display: flex;
+            align-items:Center;
+            margin-top: 30px;
+            margin-left: 80px;
+            .fileBox{
+                float: left;
+                background-color: rgb(16,15,37);
+                height: 71px;
+                width: 150px;
+                margin-left: 30px;
+                margin-right: 30px;
+                position: relative;
+                #addVideo{
+                    height: 100%;
+                    width: 100%;
+                    //background-image: url('https://rexhang.com/img/rexhang.png');
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: 100% 100%;
+                    cursor:pointer;
+                }
+                #file{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 9;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                  }
+            }  
+            .uploadPanel{
+                float:left;
+                #label2{
+                    font-size: 16px;
+                    color: #fefefe;
+                }
+                #video_upload{
+                    margin-top: 20px;
+                    cursor:pointer;
+                }
+                #fileName{
+                    margin-top: 20px;
+                }
+            }          
+        }
+    }
+    .addElement{
+        background-color: rgb(21,19,47);
+        border-radius: 15px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        margin-top: 10px;
+        #des{
+            //float: left;
+            padding-right: 0;
+        }
+        .panel{
+            width: 100%;
+            height: auto;
+            overflow: auto;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            .card{
+                cursor:pointer;
+                padding-top: 10px;
+                width: 220px;
+                height: 280px;
+                float: left;
+                margin: 10px;
+                background-color: rgb(16,15,37);
+                border: 1px solid  rgba(255, 255, 255, 0.2);
+                .head{
+                    #div1{
+                        font-size: 16px;
+                        float: left;
+                        padding-left: 90px;
+                    }
+                    #img{
+                        float: right;
+                        height: 10px;
+                        width: 10px;
+                        margin-right: 12px;
+                        margin-top: 12px;
+                        cursor: pointer;
+                    }
+                }
+               
+                #img{
+                    width: 220px;
+                    height: 190px;
+                    margin-top: 10px;
+
+                }
+                #div2{
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 14px auto 0;
+                    border-top: 1px solid  rgba(255, 255, 255, 0.2);
+                    padding: 2px 0;
+                }
+            }
+            #add{
+                cursor:pointer;
+                display: inline-block;
+                //margin-left: 100px;
+                width: 220px;
+                height: 280px;
+                background-color: rgb(37,33,57);
+                margin: 10px;
+                #img1{               
+                    width: 220px;
+                    height: 280px;
+                }
+                #tianjia1{
+                    text-align: center;
+                    color: rgb(83,86,94);
+                    font-size: 16px;
+                }
+                #img2{
+                    width: 220px;
+                    height: 120px;
+                }
+                #tianjia2{
+                    text-align: center;
+                    color: rgb(83,86,94);
+                    font-size: 16px;
+                    padding-top: 50%;                    
+                }
+            }
+        }
+        
+        .buttonBoard{
+            margin-top: 50px;
+            .btn1{
+                background-color: red;
+                color: white;
+                float: left;
+                width: 180px;
+                height: 60px;
+                margin-left: 25%;
+                border-radius: 10px;
+                display: flex;
+                justify-content:center;//左右
+                align-items:Center;
+                cursor:pointer;
+            }
+            .btn2{
+                width: 180px;
+                height: 60px;
+                background-color: white;
+                color: black;
+                margin-left: 55%;
+                border-radius: 10px;
+                display: flex;
+                justify-content:center;//左右
+                align-items:Center;
+                cursor:pointer;
+            }
+        }
+    }
+}
